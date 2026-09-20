@@ -1,0 +1,25 @@
+PS E:\PThethongtichhop> java -cp out th1.HostInspector localhost
+Host: localhost
+- IP: 127.0.0.1
+  Canonical: gen-webserver.local
+  Loopback: true
+  Site local: false
+- IP: 0:0:0:0:0:0:0:1
+  Canonical: 0:0:0:0:0:0:0:1
+  Loopback: true
+  Site local: false
+
+   java -cp out th1.HostInspector example.com
+Host: example.com
+- IP: 172.66.147.243
+  Canonical: 172.66.147.243
+  Loopback: false
+  Site local: false
+- IP: 104.20.23.154
+  Canonical: 104.20.23.154
+  Loopback: false
+  Site local: false
+
+  PS E:\PThethongtichhop> java -cp out th1.HostInspector host-khong-ton-tai.invalid
+Không phân gi?i ???c host: host-khong-ton-tai.invalid
+PS E:\PThethongtichhop> 

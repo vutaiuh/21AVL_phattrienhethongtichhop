@@ -1,0 +1,12 @@
+PS E:\PThethongtichhop> javac -d out lab4/th4/UdpEchoServer.java lab4/th4/UdpEchoClient.java
+PS E:\PThethongtichhop> java -cp out th4.UdpEchoServer
+UDP server listening on port 5001
+
+
+PS E:\PThethongtichhop> java -cp out th4.UdpEchoClient localhost 5001 "xin chao UDP"
+Server: ACK XIN CHAO UDP
+PS E:\PThethongtichhop> java -cp out th4.UdpEchoClient localhost 9999 "test"
+H?t 3 giây nh?ng ch?a nh?n ???c ph?n h?i
+PS E:\PThethongtichhop> 
+
+

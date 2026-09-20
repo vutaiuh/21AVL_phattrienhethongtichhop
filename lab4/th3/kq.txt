@@ -1,0 +1,19 @@
+PS E:\PThethongtichhop> java -cp out th2.TcpCommandClient localhost 5000
+Connected. Enter PING, TIME, UPPER text, QUIT
+PING
+Server: OK PONG
+TIME
+Server: OK 2026-09-20T07:52:50.683638
+UPPER xin chao
+Server: OK XIN CHAO
+QUIT
+Server: OK BYE
+PS E:\PThethongtichhop> 
+
+PS E:\PThethongtichhop> javac -d out lab4/th2/TcpCommandServer.java lab4/th3/MultiClientTcpServer.java
+PS E:\PThethongtichhop> java -cp out th3.MultiClientTcpServer
+Multi-client server on port 5000
+Connected: /127.0.0.1:18883
+Disconnected: /127.0.0.1:18883
+
+
