@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SanPhamApp",
+            "request": "launch",
+            "mainClass": "SanPhamApp",
+            "projectName": "java_b31c374b",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "LuongApp",
+            "request": "launch",
+            "mainClass": "LuongApp",
+            "projectName": "java_b31c374b",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Run App",
+            "request": "launch",
+            "mainClass": "App",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--enable-native-access=ALL-UNNAMED",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/sqlite-jdbc-3.53.4.0.jar"
+            ]
+        }
+    ]
+}
